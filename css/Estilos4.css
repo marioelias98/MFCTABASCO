@@ -1,0 +1,124 @@
+nav{
+    
+    text-align:  center;
+    padding: 10px 10px 0 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+nav > a{
+    background:linear-gradient(50deg,#160b9f,#12d4ef);
+    width: 350px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;    
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1x;
+    display: block;
+    transition: all 300ms;
+    margin-top: 10px;
+    
+}
+
+nav > a:hover,select {
+   background:linear-gradient(50deg,#8dace6,#12d4ef);
+   transform: translateY(20px);
+    box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+    
+}
+    
+    .footer {
+    
+    background: linear-gradient(50deg,#1443c1,rgb(118, 173, 237));
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    
+}
+.footer .social [class^="icon-"]{
+    
+   color:#EBF5FB;
+   text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+
+
+
+}
+.footer .sociales [class^="icon-"]{
+    
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 40px
+
+    
+    
+}
+
+
+.Noticias-mfc a {
+    font-size: 20px;
+    color: snow;
+    text-align: center;
+    text-decoration: none;
+}
+
+#Noticias {
+    background:linear-gradient(50deg,#1443c1,rgb(22, 90, 168));
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+    font-family: serif;
+    font-size: 40px;
+}
+
+#Noticias .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Noticias-mfc {
+    margin: 50px;
+}
+.Noticias-mfc img {
+    width: 200px;
+    height 200px;
+    border-radius: 20%;
+    border: 10px solid #fff;
+}
+@media (min-width:480px);
+.Noticias-mfc {
+    width: 40%;
+}
+@media (min-width:1024px);
+.Noticias-mfc {
+    width: auto;
+}
+
+.Noticias-mfc a {
+font-size: 20px;
+background:linear-gradient(50deg,rgb(126, 147, 219),rgba(19, 35, 119, 0.65));
+padding: 10px 10px;
+box-shadow: 0px 7px 0px rgba(26, 83, 132, 0.92); 
+font-family: sans-serif;
+transition: 500ms;
+}
+
+.Noticias-mfc a:hover,select {
+    background:#97d8e0;
+    box-shadow: 0px 8px 0px #85C1E9;
+    
+}

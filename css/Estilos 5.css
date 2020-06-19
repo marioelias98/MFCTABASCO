@@ -1,0 +1,132 @@
+nav{
+    
+    text-align:  center;
+    padding: 10px 10px 0 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+nav > a{
+    background:linear-gradient(50deg,#160b9f,#12d4ef);
+    width: 350px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;    
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1x;
+    display: block;
+    transition: all 300ms;
+    margin-top: 10px;
+    
+}
+
+nav > a:hover,select {
+   background:linear-gradient(50deg,#8dace6,#12d4ef);
+   transform: translateY(20px);
+    box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+}
+    
+
+.info__columna {
+    color: #fff;
+   background: linear-gradient(50deg,#0d2c52,rgba(74, 68, 232, 0.98));
+   text-align: center;
+    color:#fff;
+    font-size: 30px; 
+    width: 50;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: block;
+    margin: 20, 0px;
+    
+    
+}
+
+.info__img{
+    
+    
+    border-radius: 10%;
+    width: 200px;
+    height 200px;
+    border: 10px solid #fff;
+    
+}
+            
+        
+
+
+.footer {
+    
+    background: linear-gradient(50deg,rgb(10, 48, 150),rgba(10, 22, 54, 0.8));
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+}
+
+.footer .social [class^="icon-"]{
+    
+   color:#EBF5FB;
+   text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+
+
+
+}
+.footer .sociales [class^="icon-"]{
+    
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 40px
+
+    
+    
+}
+
+.descarga a{
+    
+     background:linear-gradient(50deg,rgb(72, 141, 232),#12d4ef);
+    width: 350px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    text-align: center;    
+    text-decoration: none;
+    margin:  20 5px;
+    text-transform: uppercase;
+    letter-spacing: 1x;
+    transition: all 300ms;
+    margin-top: 20px;
+    
+}
+.descarga a:hover {
+transform: translateY(10px);
+box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+}
+
+.reproductor {
+    
+ text-align: center;
+    color:#fff;
+    font-size: 30px; 
+    width: 50;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: block;
+    margin: 20, 0px;
+    
+}

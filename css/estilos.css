@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Caladea&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Open+Sans&display=swap';
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(servicios.css);
+margin 0;
+padding: 0;
+box-sizing: border-box;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+body{
+    margin 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { 
+font-family: 'Caladea', serif;
+    letter-spacing: 2.5px
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background:linear-gradient(50deg,rgba(10, 20, 95, 0.88),#12d4ef);
+    color:#fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: block;
+    margin: auto;
+    }
+.contenedor {
+    width: 98%;
+    margin:auto;
+}
+}
+.header.contenedor {
+    
+display: flex;
+    justify-content: space-between;
+}
+.logo, .icon-menu {
+    margin: 5px;
+    color: #012dbf;
+    text-align: center;
+}
+.icon-menu{
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size:40px;
+    background:#4cddff;
+    text-align:center;
+    line-height: 45px;
+    border-radius: 5px;
+    margin-left: auto;
+    cursor: pointer;
+}
+.nav{
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 50%;
+    transition: all 0.4s;  
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+     display: block;
+}
+.menu__link {
+    display: block;
+    padding: 5px;
+    background:linear-gradient(50deg,rgba(18, 61, 239, 0.96),hsl(187, 99%, 50%));
+    text-decoration: none;
+    color:#fff;
+    text-align: left;
+}
+.menu__link:hover, select {
+    background:#12d4ef;
+    cursor: pointer;
+} 
+.mostrar {
+    left: 0;
+
+}
+section {
+
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+#NAVEGACIÓN {
+    background:linear-gradient(50deg,#1443c1,rgba(218, 236, 239, 0.38));
+    font-family: "sans-serif";
+    text-align: center;
+    color:#fff;
+    padding: 0;
+    font-size: 20px; 
+    width: 50;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin: auto;
+    display: block;
+
+}
+
+
+/*-------------------------------Estilos de quienes somos_____________*/
+.info__columna {
+    background: #061086 ;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: "sans-serif";
+    font-size: 25px;
+      
+}
+
+.info__columna img {
+    
+    
+    background-size 100% 100%;
+    background-repeat: no-repeat;
+    width: 70%;
+    margin: 0 auto;
+    height: 500px;
+    
+    
+}
+
+.servicios-mfc a {
+    font-size: 20px;
+    color: snow;
+    text-align: center;
+    text-decoration: none;
+}
+
+.info a{
+    background:url(../img/cristianos.jpg);
+    width: 350px;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: white;
+    text-align: center;    
+    text-decoration: none;
+    margin: auto;
+    text-transform: uppercase;
+    letter-spacing: 1x;
+    display: block;
+    transition: all 300ms;
+    margin-top: 50px;
+}
+.info a:hover {
+transform: translateY(10px);
+box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+}
+
+.footer {
+    
+    background:linear-gradient(50deg,rgb(10, 48, 150),rgba(10, 22, 54, 0.8));
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+.footer .social [class^="icon-"]{
+    
+   color:#EBF5FB;
+   text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+
+
+
+}
+.footer .sociales [class^="icon-"]{
+    
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 40px
+
+}
+
+    

@@ -1,0 +1,247 @@
+body {
+   background: linear-gradient(50deg,#1191af,#1b0dc1); 
+}
+
+
+
+
+nav{
+    
+    text-align:  center;
+    padding: 10px 10px 0 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+nav > a{
+    background:linear-gradient(50deg,#1259a0,#17b8de);
+    width: 350px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;    
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1x;
+    display: block;
+    transition: all 300ms;
+    margin-top: 10px;
+    
+}
+
+nav > a:hover,select {
+   background:linear-gradient(50deg,#8dace6,#12d4ef);
+   transform: translateY(20px);
+    box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+    
+}
+.info__columna {
+    color: #fff;
+   text-align: left;
+    color:#fff;
+    padding: 50px;
+    font-size: 20px; 
+    width: 50;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin: 50px;
+    display: block;
+        
+    }
+
+
+
+.info__titulo {
+    
+font-family: sans-serif;
+font-size: 50px;
+color: #ffffff;
+text-align: left;
+padding: 10px;
+}
+
+.info__img {
+    
+    width: 200px;
+    height 200px;
+    border-radius: 20%;
+    border: 5px solid #fafafa;
+    
+}
+
+#servicios {
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+    font-family: serif;
+    font-size: 40px;
+}
+
+#servicios .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.servicios-mfc {
+    margin: 50px;
+}
+.servicios-mfc img {
+    width: 180px;
+    height 180px;
+    border-radius: 50%;
+    border: 10px solid #020279;
+}
+@media (min-width:480px);
+.servicios-mfc {
+    width: 40%;
+}
+@media (min-width:1024px);
+.servicios-mfc {
+    width: auto;
+}
+
+.servicios-mfc a {
+background:linear-gradient(50deg,rgba(4, 4, 65, 0.58),#0e0648);
+    padding: 20px 20px;
+    font-size: 30px;
+    color: white;
+    text-align: center;    
+    text-decoration: none;
+    font-family: sans-serif;
+     border-radius: 20px;
+    border: 1px solid #fcfcfc;
+    transition: 500ms;
+}
+
+.servicios-mfc a:hover,select {
+   background:linear-gradient(50deg,#8dace6,#12d4ef);
+   transform: translateY(10px);
+   box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+    
+}
+
+
+.servicios-mfc a {
+    font-size: 20px;
+    color: snow;
+    text-align: center;
+    text-decoration: none;
+}
+.footer {
+    
+    background:linear-gradient(50deg,rgb(10, 48, 150),rgba(10, 22, 54, 0.8));
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+.footer .social [class^="icon-"]{
+    
+   color:#EBF5FB;
+   text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+
+
+
+}
+.footer .sociales [class^="icon-"]{
+    
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 40px
+
+}   
+
+}
+.footer .sociales [class^="icon-"]{
+    
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 40px
+
+}
+
+h4 {
+    font-size: 30px;
+    font-family: sans-serif;
+    
+        
+}
+
+h5 {
+    
+    font-family: sans-serif;
+    font-size:  30px;
+    
+}
+
+h1{
+    font-family: sans-serif;
+    font-size:  30px;
+    
+}
+
+h2{
+    
+    font-family: sans-serif;
+    font-size:  30px;
+    
+}
+
+h3{
+    
+    
+    font-family: sans-serif;
+    font-size:  30px;
+    
+    
+}
+
+.Descargables-mfc a {
+    
+    
+    background:linear-gradient(50deg,#57bade,#3c4ed9);
+    width: 200px;
+    padding: 30px 20px;
+    font-size: 15px;
+    color: white;
+    text-align: center;    
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1x;
+    display: block;
+    transition: all 300ms;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 2px solid #080f64;
+   
+    
+}
+
+.Descargables-mfc a:hover {
+   background:linear-gradient(50deg,#08117e,#12d4ef);
+  transform: translateY(20px);
+ box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+    
+}
